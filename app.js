@@ -27,16 +27,15 @@ document.getElementById("btnguestCheck").onclick = function(){
     //let randomNumber = Math.random();
     //randomNumber = randomNumber *11;
     //randomNumber = Math.floor(randomNumber);
-
     if(document.getElementById("Guess").value == randomNumber){
         alert ("Well Done !!!.Your Answer is Correct");
     }
     else{
-        alert("Try Again......The correct number is :"+randomNumber);
+        alert("Try Again......");
     }
-
+  
 }
 
 let randomNumber = Math.floor((Math.random()*10)+1);
-console.log(randomNumber);
+
 
